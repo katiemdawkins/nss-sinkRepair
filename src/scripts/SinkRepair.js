@@ -1,5 +1,5 @@
-import { Requests } from ".Requests.js"
-import { ServiceForm } from " ./ServiceForm.js"
+import { Requests } from "./Requests.js"
+import { ServiceForm } from "./ServiceForm.js"
 
 export const SinkRepair = () => {
     return `

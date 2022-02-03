@@ -1,5 +1,11 @@
 import { getRequests } from "./dataAccess.js"
 
+const convertRequestToListElement = (requestObj) => {
+    let html = `<li>${requestObj.description}</li>`
+
+    return html
+}
+
 export const Requests = () => {
     const requests = getRequests()
 
@@ -14,11 +20,6 @@ export const Requests = () => {
     return html
 }
 
-const convertRequestToListElement = (requestObj) => {
-    let html = `<li>${requestObj.description}</li>`
-
-    return html
-}
 
 
 
