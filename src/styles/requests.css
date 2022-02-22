@@ -19,3 +19,15 @@ input {
     color: rgb(255, 255, 255);
     font-size: 1rem;
 }
+
+#requestTable {
+    width: 100%;
+    display: table;
+ 
+}
+
+li{
+    list-style-type: none;
+}
+
+

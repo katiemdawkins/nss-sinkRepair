@@ -1,3 +1,6 @@
+import { sendRequest } from "./dataAccess.js"
+
+
 const mainContainer = document.querySelector("#container")
 
 // we're adding and click event listener to the mainContainer-- the DOM
@@ -5,6 +8,8 @@ mainContainer.addEventListener("click", clickEvent => {
     //conditional if user clicks the button
     if (clickEvent.target.id === "submitRequest") {
         // Get what the user typed into the form fields
+        //.querySelector is looking to the input name for each input field
+        //and getting what the user input
         const userDescription = document.querySelector("input[name='serviceDescription']").value
         const userAddress = document.querySelector("input[name='serviceAddress']").value
         const userBudget = document.querySelector("input[name='serviceBudget']").value
@@ -19,6 +24,7 @@ mainContainer.addEventListener("click", clickEvent => {
         }
 
         // Send the data to the API for permanent storage
+        //sendRequest is in dataAccess.js
         sendRequest(dataToSendToAPI)
     }
 })

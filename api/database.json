@@ -1,23 +1,78 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-
-        },
-        {
-            "id": 2,
-            "description": "Bathroom Sink is clogged!",
-            "address": "555 Street Ave",
-            "budget": 200,
-            "neededBy": "2022-02-15"
-        }
-
-
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Merle"
+    },
+    {
+      "id": 2,
+      "name": "Maude"
+    }
+  ],
+  "completions": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "id": 2,
+      "description": "Bathroom Sink is clogged!",
+      "address": "555 Street Ave",
+      "budget": 200,
+      "neededBy": "2022-02-15"
+    },
+    {
+      "description": "bath tub is holding water",
+      "address": "444 Tree Street",
+      "budget": "450",
+      "neededBy": "2022-02-05",
+      "id": 3
+    },
+    {
+      "description": "ladeda",
+      "address": "444 teiieedd st",
+      "budget": "666",
+      "neededBy": "2022-02-16",
+      "id": 5
+    },
+    {
+      "description": "2nd floor bathroom leaking to first floor kitchen sink. ick!",
+      "address": "333 Street Av",
+      "budget": "900",
+      "neededBy": "2022-02-08",
+      "id": 6
+    }
+  ]
 }
